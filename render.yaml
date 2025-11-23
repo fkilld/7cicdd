@@ -10,7 +10,7 @@ services:
       - key: PYTHON_VERSION
         value: '3.11'
       - key: SECRET_KEY
-        generator: true
+        generateValue: true
       - key: DEBUG
         value: False
         
